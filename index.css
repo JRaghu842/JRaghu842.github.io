@@ -1,0 +1,196 @@
+/* Global styles */
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  } */
+  
+  /* Navigation bar styles */
+  
+  /* #nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 1000;
+  }
+
+  nav>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  
+  .nav-link {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 20px;
+    font-weight: 600;
+  }
+  
+  .nav-link:hover {
+    color: rgb(255, 119, 0)
+  }
+  
+
+  #mobileNavLinks {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+  
+  .icon {
+    display: none;
+  } */
+
+
+  /* @media only screen and (max-width: 850px) {
+    .nav-link {
+      display: none;
+    }
+  
+    .icon {
+      display: block;
+      font-size: 24px;
+      cursor: pointer;
+    }
+  
+    #mobileNavLinks {
+      display: flex;
+    }
+  } */
+  /* Home section styles */
+  
+
+  body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+#nav-menu {
+
+    height: 80px;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: sticky;
+    top: 0;
+    background-color: #c35d5d;
+    z-index: 1000;
+  }
+
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+}  
+
+nav ul {
+    float: right;
+    margin-right: 55px;
+}  
+
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 7px 13px;
+} 
+
+.logo{
+    color: black;
+    font-size: 25px;
+    line-height: 80px;
+    padding: 0 80px;
+    padding-right: 40px;
+    font-weight: bold;
+}
+
+.checkButton{
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+.myCheckbox{
+    display: none;
+}
+
+a:hover,a.active{
+    color: orangered;
+}
+
+
+@media only screen and (max-width: 850px){
+
+    .checkButton{
+        display: block;
+    }
+
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: grey;
+        top:80px;
+        left:-100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+
+    }
+    nav ul li a{
+        color: black;
+        font-size: 20px;
+
+    } 
+
+    a:hover,a.active{
+        color: orangered;
+    }
+
+    .myCheckbox:checked ~ ul{
+        left: 0;
+    }
+}
