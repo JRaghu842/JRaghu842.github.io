@@ -4,86 +4,241 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Protfolio Website</title>
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <!-- <nav id="nav-menu">
-    <h1>Hello There!</h1>
-    <div>
-      <a href="#home" class="nav-link home">Home</a>
-      <a href="#about" class="nav-link about">About</a>
-      <a href="#skills" class="nav-link skills">Skills</a>
-      <a href="#projects" class="nav-link projects">Projects</a>
-      <a href="#contact" class="nav-link contact">Contact</a>
-      <a href="#" class="nav-link resume">Resume</a>
-      <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
-        <i class="fas fa-bars"></i>
-      </a>
-    </div>
-    <div id="mobileNavLinks">
-      <a href="#home" class="nav-link home">Home</a>
-      <a href="#about" class="nav-link about">About</a>
-      <a href="#skills" class="nav-link skills">Skills</a>
-      <a href="#projects" class="nav-link projects">Projects</a>
-      <a href="#contact" class="nav-link contact">Contact</a>
-      <a href="#" class="nav-link resume">Resume</a>
-    </div>
-  </nav> -->
+    <!-- navbar -->
 
+    <nav id="nav-menu">
 
-  <nav id="nav-menu">
-    
-    <label class="logo">Hello!</label>
-    <input type="checkbox" class="myCheckbox" id="myCheck">
-    <label for="myCheck" class="checkButton">
-      <i class="fas fa-bars"></i>
-    </label>
+        <!-- <a href="#" class="logo"> < Dev<span>RDJ</span>/></a> -->
+        <a href="#" class="logo"> { Dev <span>RDJ</span> }</a>
 
-    <ul>
-      <li><a href="#home" class="nav-link home">Home</a></li>
-      <li><a href="#about" class="nav-link about">About</a></li>
-      <li><a href="#skills" class="nav-link skills">Skills</a></li>
-      <li><a href="#projects" class="nav-link projects">Projects</a></li>
-      <li><a href="#contact" class="nav-link contact">Contact</a></li>
-      <li><a href="resume.pdf" target="_blank" class="nav-link resume">Resume</a></li>
-    </ul>
+        <ul class="navlist">
+        <li><a href="#home" class="nav-link home">Home</a></li>
+        <li><a href="#about" class="nav-link about">About</a></li>
+        <li><a href="#skills" class="nav-link skills">Skills</a></li>
+        <li><a href="#projects" class="nav-link projects">Projects</a></li>
+        <li><a href="#contact" class="nav-link contact">Contact</a></li>
+        <li><a href="resume.pdf" target="_blank" class="nav-link resume">Resume</a></li>
+        </ul>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
   </nav>
-
-<!-- home starts -->
-
-    <div id="home">
-
-    </div>
-
-    <!-- about starts -->
-    <div id="about" class="about section">
-
-    </div>
-
-
-    <!-- skills starts -->
-    <div  id="skills">
-
-    </div>
-
-  <!-- projects starts -->
-    <div id="projects">
-
-    </div>
-
-<!-- contacts starts -->
-    <div id="contact">
-
-    </div>
-
     
+  <!-- home section -->
+  <section class="homecls" id="home">
+    <div class="home-text">
+        <div class="slide">
+            <span class="one">Hello</span>
+            <span class="two">I'm</span>
+        </div>
+        <h1 id="user-detail-name">Raghavendra</h1>
+        <h3>Full-Stack<span> Web Developer</span></h3>
+        <p>Aspiring Full Stack Web Developer at Masai School, Life Long Learner.</p>
+        <div class="list" id="list1">
+            <li><a href="https://github.com/JRaghu842" id="contact-github"><i class='bx bxl-github' ></i></a></li>
+            <li><a href="https://www.linkedin.com/in/raghavendra-jingade-4b0505194/" id="contact-linkedin"> <i class='bx bxl-linkedin' ></i></a></li>
+        </div>
+    </div>
+  </section> 
+
+ 
+  <!-- about -->
+  <section class="about section" id="about">
+        <div class="about-img">
+            <img class="home-img" src="./images/prof2.png" alt="">
+        </div>
+
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <div class="wrapper">
+                <h3 class="static-txt"> I'm a</h3>
+                <div class="dynamic-txt">
+                    <h5>Full-Stack Web Developer</h>
+                    <h4>Full-Stack Web Developer</h4>
+                    <h4>Node JS Developer</h4>
+                    <h4>Coder</h4>
+                </div>
+            </div>
+            <p>A passionate full-stack web developer with extensive experience in Node.js has completed a 7-month full-stack web development program at Masai School. During this time, have gained over 1200 hours of hands-on coding experience and developed a strong understanding of various web technologies, including JavaScript, Express.js, MongoDB, WebSockets, Redis, and AWS. Always eager to learn new tools and tech stacks and committed to delivering high-quality solutions to clients. With these skills and expertise, excited to to develop innovative and efficient web applications.</p>
+            <a href="https://github.com/JRaghu842" class="btn">More About</a>
+        </div>
+  </section>
+
+  <!-- skills -->
+  <section id="skills" class="skills">
+    <div class="main-text">
+        <h4>What I am Expert In ?</h4>
+        <h2><span>My</span> Skills</h2>
+    </div>
+
+    <hr>
+
+    <div class="allSkills">
+        <div class="skills-card">
+            <img class="skills-card-img" src="./images/html2-removebg-preview.png" alt="err">
+            <p class="skills-card-name">HTML</p>
+        </div>
+        <div class="skills-card">
+            <img class="skills-card-img" src="./images/css2-removebg-preview.png" alt="err">
+            <p class="skills-card-name">CSS</p>
+        </div>
+        <div class="skills-card">
+            <img class="skills-card-img" src="./images/js.png" alt="err">
+            <p class="skills-card-name">JavaScript</p>
+        </div>
+        <div class="skills-card">
+            <img class="skills-card-img" src="./images/nodejs-removebg-preview.png" alt="err">
+            <p class="skills-card-name">Node.js</p>
+        </div>
+        <div class="skills-card">
+            <img class="skills-card-img" src="./images/expressjs-removebg-preview.png" alt="err">
+            <p class="skills-card-name">Express.js</p>
+        </div>
+        <div class="skills-card">
+            <img class="skills-card-img" src="./images/mongo-removebg-preview.png" alt="err">
+            <p class="skills-card-name">MongoDB</p>
+        </div>
+        <div class="skills-card">
+            <img class="skills-card-img" src="./images/npm-removebg-preview.png" alt="err">
+            <p class="skills-card-name">NPM</p>
+        </div>
+        <div class="skills-card">
+            <img class="skills-card-img" src="./images/git-removebg-preview.png" alt="err">
+            <p class="skills-card-name">git</p>
+        </div>
+        <div class="skills-card">
+            <img class="skills-card-img" src="./images/socketio-removebg-preview.png" alt="err">
+            <p class="skills-card-name">Socket.io</p>
+        </div>
+        <div class="skills-card">
+            <img class="skills-card-img" src="./images/redis-removebg-preview.png" alt="err">
+            <p class="skills-card-name">Redis</p>
+        </div>
+        <!-- <div class="skills-card">
+            <img class="skills-card-img" src="./images/aws-removebg-preview.png" alt="err">
+            <p class="skills-card-name">aws</p>
+        </div> -->
+        <div class="skills-card">
+            <img class="skills-card-img" src="./images/tailwind-removebg-preview.png" alt="err">
+            <p class="skills-card-name">Tailwind css</p>
+        </div>
+        <!-- <div class="skills-card">
+            <img class="skills-card-img" src="./images/chart-removebg-preview.png" alt="err">
+            <p class="skills-card-name">Chart.js</p>
+        </div> -->
 
 
+    </div>
+
+  </section>
+
+  <!-- projects -->
+  <section class="projects" id="projects">
+    <div class="main-text">
+        <h4>What are my latest projects ?</h4>
+        <h2><span>My</span> Projects</h2>
+    </div>
+
+    <hr>
+
+    <div class="allprojects">
+        <div class="project-card">
+            <img src="./images/projects_imgs/taskify_3.JPG" alt="err">
+            <div class="layer">
+                <h5 class="project-title"> Taskify.com </h5>
+                <p class="project-description">A web-based platform inspired by Monday.com, designed to help users plan and manage their projects, goals, and tasks in a seamless and efficient manner.</p>
+                <div class="project-tech-stack">
+                    <h5>Tech stack used</h5>  
+                    <p>HTML <span>|</span> CSS <span>|</span>  JavaScript <span>|</span>  Nodejs <span>|</span>  Expressjs <span>|</span>  MongoDB <span>|</span>  Mongoose <span>|</span>  Chartjs</p>
+                </div>
+                <div class="adiv">
+                    <a href="https://github.com/JRaghu842/Taskify.com" id="btnproj1_1" class="project-github-link"><i class='bx bxl-github' ></i></a>
+                    <a href="https://heartfelt-gaufre-ebf300.netlify.app/" id="btnproj1_2" class="project-deployed-link"> <i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="./images/projects_imgs/FashionGeek_3s.jpg" alt="err">
+            <div class="layer">
+                <h5 class="project-title"> FashionGeeks.com </h5>
+                <p class="project-description"> FashionGeeks.com is an ecommerce website for Kids fashion wear, which is a clone of Carter's.com</p>
+                <div class="project-tech-stack">
+                    <h5>Tech stack used</h5>  
+                    <p>HTML <span>|</span>  CSS <span>|</span>  JavaScript <span>|</span>  MockAPI <span>|</span>  Postman</p>
+                </div>
+                <div class="adiv">
+                    <a href="https://github.com/JRaghu842/Fashion-Geeks.com" id="btnproj1_1" class="project-github-link"><i class='bx bxl-github' ></i></a>
+                    <a href="https://taupe-raindrop-61fc2e.netlify.app/" id="btnproj1_2" class="project-deployed-link"> <i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="./images/projects_imgs/LimeBazar_3.jpg" alt="err">
+            <div class="layer">
+                <h5 class="project-title"> LimeBazar.com  </h5>
+                <p class="project-description"> Lime Bazar is an e-commerce website where users can buy all kinds of clothes and other fashion accessories.</p>
+                <div class="project-tech-stack">
+                    <h5>Tech stack used</h5>  
+                    <p>HTML <span>|</span>  CSS <span>|</span>  JavaScript <span>|</span>  Json Server <span>|</span>  MockAPI  </p>
+                </div>
+                <div class="adiv">
+                    <a href="https://github.com/JRaghu842/Lime-Bazar.com" id="btnproj1_1" class="project-github-link"><i class='bx bxl-github' ></i></a>
+                    <a href="https://wondrous-entremet-28d976.netlify.app/" id="btnproj1_2" class="project-deployed-link"> <i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- contact  -->
+
+  <section class="contacts" id="contact">
+    <div class="contact-text">
+        <h2>Contact <span>Me!</span></h2>
+        <h4>Are you in need of a talented full-stack web developer who specializes in Node.js backend development? Look no further Just contact me!</h4>
+        <div class="list">
+            <li><a href="https://github.com/JRaghu842" id="contact-github"><i class='bx bxl-github' ></i> JRaghu842</a></li>
+            <li><a href="https://www.linkedin.com/in/raghavendra-jingade-4b0505194/" id="contact-linkedin"> <i class='bx bxl-linkedin' ></i>Raghavendra Jingade</a></li>
+            <li><a href="#aaa"  id="contact-email"> <i class='bx bxl-gmail' ></i> jraghavendra842@gmail.com</a></li>
+            <li><a href="#bbb" id="contact-phone"> <i class='bx bxs-phone-call' ></i>+91 8904862448</a></li>
+        </div>
+    </div>
+
+    <div class="contact-form">
+            <form action="">
+                <input type="name" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email Address" required>
+                <input type="" placeholder="Your Mobile Number" required>
+                <textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You"></textarea>
+                <input type="submit" value="Send Message" class="submit" required>
+            </form>
+    </div>
+  </section>
+
+  <!-- end section -->
+  <section class="end">
+    <div class="last-text">
+        <p>Copyright © 2023 by Raghavedra Jingade All Rights Reserved.</p>
+    </div>
+    <div class="top">
+        <a href="#home"> <i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+
+  </section>
 
 </body>
 </html>
 
-<script src="index.js"></script>
+<script src="./index.js"></script>
