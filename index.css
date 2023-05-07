@@ -13,9 +13,9 @@
   --second-bg-color: #202020;
   --text-color: #fff;
   --second-color: #ccc;
-  --main-color: #ff4d05;
+  /* --main-color: #ff4d05; */
   /* --main-color: rgb(255, 132, 0); */
-  /* --main-color: rgb(123, 184, 0); */
+  --main-color: rgb(123, 184, 0);
   /* --main-color: rgb(0, 132, 184); */
   /* --main-color: rgba(76, 142, 208, 0.69); */
   --big-font: 5rem;
@@ -41,6 +41,7 @@ body{
   padding: 22px 15%;
   border-bottom: 1px solid transparent;
   transition: all .45s ease;
+  /* border: 1px solid white; */
 }
 
 .logo{
@@ -63,7 +64,7 @@ span{
   color: var(--second-color);
   font-size: 17px;
   font-weight: 500;
-  margin: 0 25px;
+  margin: 0 20px;
   transition: all .45s ease;
 }
 
@@ -204,7 +205,7 @@ section{
 #nav-menu{
   background: var(--bg-color);
   border-bottom: 1px solid #ffffff1a;
-  padding: 12px 15%;
+  padding: 12px 14%;
   height: 50px;
   background-color: rgba(0, 0, 0, 0.65);
 }
@@ -457,7 +458,7 @@ section{
   color: var(--second-color);
   font-size: 1rem;
   line-height: 1.8;
-  text-align: center;
+  text-align: justify;
   margin-bottom: 10px;
 
 }
@@ -497,6 +498,7 @@ section{
 .project-tech-stack span{
   color: var(--main-color);
 }
+
 
 .contacts{
   background: var(--second-bg-color);
@@ -645,12 +647,50 @@ font-size: 14px;
   font-size: 26px;
 }
 
+#stats img{
+  width: 75%;
+  transition: all .45s ease;
+  margin-bottom: 20px;
+filter: drop-shadow(5px 5px 10px #000);
+
+}
+#statsimg>img{
+width: 90%;
+margin-bottom: 20px;
+filter: drop-shadow(5px 5px 10px #000);
+}
+
+#stats>hr{
+  margin-top: 15px;
+}
+
+#gitdata_cont{
+  /* border: 1px solid black; */
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#gitdata_cont div{
+  width: 50%;
+  text-align: center;
+}
 
 
+#calendar{
+  text-align: center;
+  margin-top: 40px;
+}
+
+#calendar h2{
+    font-size: var(--h2-font);
+    line-height: 1;
+}
 
 
-
-@media (max-width: 1250px){
+@media (max-width: 1260px){
   #nav-menu{
       padding: 12px 2.5%;
       transition: .1s;
@@ -670,13 +710,11 @@ font-size: 14px;
   .home-text h3{
       font-size: 2rem;
   }
-
-
 }
 
 
 
-@media (max-width: 920px){
+@media (max-width: 960px){
   #about{
       grid-template-columns: 1fr;
   }
@@ -751,6 +789,19 @@ font-size: 14px;
       top: 0;
       animation: slide 6s steps(3) infinite;
   }
+
+  #stats>div{
+    flex-direction: column;
+    }
+  #stats>div>img{
+    margin-left: 13%;
+    margin-bottom: 3%;
+  }
+  #gitdata_cont div{
+    width: 70%;
+    text-align: center;
+  }
+
 }
 
 @media (max-width: 450px){

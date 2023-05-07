@@ -10,3 +10,23 @@ window.onscroll = () => {
   menu.classList.remove("bx-x");
   navlist.classList.remove("open");
 };
+
+GitHubCalendar(".calendar", "JRaghu842", {
+  responsive: true,
+  global_stats: false,
+  tooltips: true,
+});
+
+document.getElementById("resume-button-1").onclick = () => {
+  window.open(
+    "https://drive.google.com/file/d/1LBrMkX5j7wlU6zjqHgvBqyGtuct4h43h/view?usp=sharing"
+  );
+};
+
+document.getElementById("resume-button-2").onclick = () => {
+  window.open(
+    "https://drive.google.com/file/d/1LBrMkX5j7wlU6zjqHgvBqyGtuct4h43h/view?usp=share_link"
+  );
+};
+
+// https://drive.google.com/file/d/1LBrMkX5j7wlU6zjqHgvBqyGtuct4h43h/view?usp=share_link
