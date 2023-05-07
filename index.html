@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js">
+    </script>
 </head>
 <body>
 
@@ -28,7 +30,7 @@
         <li><a href="#projects" class="nav-link projects">Projects</a></li>
         <li><a href="#stats" class="nav-link stats">Stats</a></li>
         <li><a href="#contact" class="nav-link contact">Contact</a></li>
-        <li><a href="resume.pdf" target="_blank" class="nav-link resume" id="resume-button-1">Resume</a></li>
+        <li><a href="./images/Raghavendra-Jingade-Resume.pdf" class="nav-link resume" id="resume-button-1" download>Resume </a></li>
         </ul>
 
         <div class="bx bx-menu" id="menu-icon"></div>
@@ -48,7 +50,7 @@
         <div class="list" id="list1">
             <li><a href="https://github.com/JRaghu842" id="contact-github"><i class='bx bxl-github' ></i></a></li>
             <li><a href="https://www.linkedin.com/in/raghavendra-jingade-4b0505194/" id="contact-linkedin"> <i class='bx bxl-linkedin' ></i></a></li>
-            <button id="resume-button-2">Resume</button>
+            <a href="./images/Raghavendra-Jingade-Resume.pdf" class="nav-link resume" id="resume-button-2" download>Resume </a>
         </div>
     </div>
   </section> 
@@ -245,7 +247,7 @@
         <div id="calendar">
             <h2 class="mid"> Git<span>Hub</span> Calendar</h2>
             
-            <div  class="react-activity-calendar calendar">
+            <div  class="react-activity-calendar calendar" id="gitcal">
                 <!-- Loading stuff -->
                 Loading the data just for you.
             </div>
@@ -292,4 +294,4 @@
 </body>
 </html>
 
-<script src="./index.js"></script>
+<script src="index.js"></script>

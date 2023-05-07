@@ -708,6 +708,21 @@ filter: drop-shadow(5px 5px 10px #000);
   cursor: pointer;
 }
 
+#gitcal{
+  /* background-color: white; */
+  margin-top: 30px;
+  border-radius: 8px;
+filter: drop-shadow(5px 5px 10px #000);
+  
+}
+
+.ContributionCalendar{
+  font-size: 12px;
+}
+
+.ContributionCalendar-day{
+  background-color: white;
+}
 
 @media (max-width: 1260px){
   #nav-menu{

@@ -19,7 +19,7 @@ GitHubCalendar(".calendar", "JRaghu842", {
 
 document.getElementById("resume-button-1").onclick = () => {
   window.open(
-    "https://drive.google.com/file/d/1LBrMkX5j7wlU6zjqHgvBqyGtuct4h43h/view?usp=sharing"
+    "https://drive.google.com/file/d/1LBrMkX5j7wlU6zjqHgvBqyGtuct4h43h/view?usp=share_link"
   );
 };
 
