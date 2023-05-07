@@ -724,6 +724,19 @@ filter: drop-shadow(5px 5px 10px #000);
   background-color: white;
 }
 
+
+#downloadbtn{
+  width: 115px;
+  height: 45px;
+  background: none;
+  border: 0px;
+}
+
+#resume-button-2{
+  width: 100%;
+
+}
+
 @media (max-width: 1260px){
   #nav-menu{
       padding: 12px 2.5%;
