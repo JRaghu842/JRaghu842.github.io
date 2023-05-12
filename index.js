@@ -23,7 +23,7 @@ document.getElementById("resume-button-1").onclick = () => {
   );
 };
 
-document.getElementById("resume-button-2").onclick = () => {
+document.getElementById("resume-link-2").onclick = () => {
   window.open(
     "https://drive.google.com/file/d/1LBrMkX5j7wlU6zjqHgvBqyGtuct4h43h/view?usp=share_link"
   );
