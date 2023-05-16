@@ -77,6 +77,11 @@ span{
   
 }
 
+#resume-button-1{
+  background-color: rgb(42, 42, 42, 0.0);
+  border: none;
+}
+
 #menu-icon{
   font-size: 35px;
   color: var(--text-color);
