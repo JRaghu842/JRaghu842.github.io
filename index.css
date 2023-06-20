@@ -430,7 +430,6 @@ section{
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* border: 2px solid var(--main-color); */
   background-color: rgb(75, 75, 75);
   filter: drop-shadow(5px 5px 10px #000);
 
@@ -482,15 +481,23 @@ section{
 }
 
 .adiv{
+  position: fixed;
+  bottom: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 10px;
+  width: 90%;
 }
+
+
 
 .project-tech-stack{
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: sticky;
+  margin-bottom: 50px;
 }
 
 

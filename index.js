@@ -19,14 +19,14 @@ GitHubCalendar(".calendar", "JRaghu842", {
 
 document.getElementById("resume-link-1").onclick = () => {
   window.open(
-    "https://drive.google.com/file/d/1LBrMkX5j7wlU6zjqHgvBqyGtuct4h43h/view?usp=share_link"
+    "https://drive.google.com/file/d/1yjCNibHCsvRRJlpC6MIR_ViLl1k693qC/view?usp=drive_link"
   );
 };
+
+// https://drive.google.com/file/d/1yjCNibHCsvRRJlpC6MIR_ViLl1k693qC/view?usp=drive_link
 
 document.getElementById("resume-link-2").onclick = () => {
   window.open(
-    "https://drive.google.com/file/d/1LBrMkX5j7wlU6zjqHgvBqyGtuct4h43h/view?usp=share_link"
+    "https://drive.google.com/file/d/1yjCNibHCsvRRJlpC6MIR_ViLl1k693qC/view?usp=drive_link"
   );
 };
-
-// https://drive.google.com/file/d/1LBrMkX5j7wlU6zjqHgvBqyGtuct4h43h/view?usp=share_link
